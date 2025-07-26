@@ -1,0 +1,20 @@
+{
+    "name": "ExcelToData",
+    "rootNamespace": "",
+    "references": [
+        "GUID:efd24a114057cbf4ab8117a9f5bb0ab3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "System.Data.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
