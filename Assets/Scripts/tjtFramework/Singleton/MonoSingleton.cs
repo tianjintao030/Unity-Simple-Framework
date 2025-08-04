@@ -29,7 +29,7 @@ namespace tjtFramework.Singleton
                     {
                         //在调用Instance时自动创建其游戏对象
                         _instance = new GameObject("Singleton of " + typeof(T)).AddComponent<T>();
-                        //DontDestroyOnLoad(_instance);
+                        DontDestroyOnLoad(_instance);
                     }
                     if (_instance == null)
                     {
@@ -52,8 +52,12 @@ namespace tjtFramework.Singleton
 
         public void OnDestroy()
         {
+            Destroy();
             applicationIsQuit = true;
         }
+
+        public virtual void Destroy() 
+        { }
     }
 }
 
