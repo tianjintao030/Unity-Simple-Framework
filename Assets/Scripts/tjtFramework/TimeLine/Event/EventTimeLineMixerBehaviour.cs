@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
@@ -25,7 +25,7 @@ namespace tjtFramework.TimeLine
                 var behaviour = inputPlayable.GetBehaviour();
                 if (behaviour == null) continue;
 
-                // ¶ÔÓ¦ clip µÄÊ±¼ä
+                // å¯¹åº” clip çš„æ—¶é—´
                 var clip = clips[i];
                 behaviour.SetContent(handler, trackId, 0, clip.duration);
             }

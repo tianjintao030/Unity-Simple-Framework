@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
@@ -16,19 +16,19 @@ namespace tjtFramework.TimeLine
         {
             if(trackId == trackId_1 && clipId == clipId_1)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}¿ªÊ¼ÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}å¼€å§‹äº‹ä»¶");
             }
             if (trackId == trackId_1 && clipId == clipId_2)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}¿ªÊ¼ÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}å¼€å§‹äº‹ä»¶");
             }
             if (trackId == trackId_2 && clipId == clipId_1)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}¿ªÊ¼ÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}å¼€å§‹äº‹ä»¶");
             }
             if (trackId == trackId_2 && clipId == clipId_2)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}¿ªÊ¼ÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}å¼€å§‹äº‹ä»¶");
             }
         }
 
@@ -36,19 +36,19 @@ namespace tjtFramework.TimeLine
         {
             if (trackId == trackId_1 && clipId == clipId_1)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}½áÊøÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}ç»“æŸäº‹ä»¶");
             }
             if (trackId == trackId_1 && clipId == clipId_2)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}½áÊøÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}ç»“æŸäº‹ä»¶");
             }
             if (trackId == trackId_2 && clipId == clipId_1)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}½áÊøÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}ç»“æŸäº‹ä»¶");
             }
             if (trackId == trackId_2 && clipId == clipId_2)
             {
-                Debug.Log($"Ö´ĞĞ¹ìµÀ{trackId},Æ¬¶Î{clipId}½áÊøÊÂ¼ş");
+                Debug.Log($"æ‰§è¡Œè½¨é“{trackId},ç‰‡æ®µ{clipId}ç»“æŸäº‹ä»¶");
             }
         }
     }
