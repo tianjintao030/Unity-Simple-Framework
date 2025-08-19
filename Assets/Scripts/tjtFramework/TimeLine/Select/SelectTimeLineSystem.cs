@@ -95,8 +95,6 @@ namespace tjtFramework.TimeLine
                     // 找到对应 root 的输入
                     if (trackIndex < root.GetInputCount())
                     {
-                        var input = root.GetInput(trackIndex);
-
                         root.DisconnectInput(trackIndex);
                     }
                     break;
