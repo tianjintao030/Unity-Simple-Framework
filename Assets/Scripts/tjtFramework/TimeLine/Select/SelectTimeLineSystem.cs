@@ -6,6 +6,8 @@ using UnityEngine.Timeline;
 using tjtFramework.Utiliy;
 using UnityEngine.Playables;
 using System.Linq;
+using tjtFramework.PublicMono;
+using static PlasticPipe.Server.MonitorStats;
 
 namespace tjtFramework.TimeLine
 {
@@ -32,8 +34,11 @@ namespace tjtFramework.TimeLine
     public class SelectTimeLineSystem : MonoSingleton<SelectTimeLineSystem>
     {
         public ISelectTimeLineHandler handler;
+        public PlayableDirector director;
 
         private List<SelectTimeLineControlItem> selectTimeLineControlItems = new();
+
+        private bool needRebuild;
 
         public void OnClipEnter(string trackId, string clipId)
         {
@@ -55,14 +60,56 @@ namespace tjtFramework.TimeLine
             {
                 if(dataItem.name == chosen)
                 {
-                    dataItem.trackAsset.muted = false;
+                    //dataItem.trackAsset.muted = false;
                 }
                 else
                 {
-                    dataItem.trackAsset.muted = true;
+                    //dataItem.trackAsset.muted = true;
+                    SetTrackMute(dataItem.trackAsset);
                 }
             }
         }
+
+        private IEnumerator DelayRebuildGraph()
+        {
+            yield return null; // 等待一帧，确保不在 Evaluate 内部
+            double t0 = director.time;
+            director.RebuildGraph();
+            director.time = t0;
+            director.Evaluate();
+            director.Play();
+        }
+
+        public void SetTrackMute(TrackAsset track)
+        {
+            if (director == null || track == null) return;
+
+            var timeline = director.playableAsset as TimelineAsset;
+            if (timeline == null) return;
+
+            var graph = director.playableGraph;
+            if (!graph.IsValid()) return;
+
+            var root = graph.GetRootPlayable(0);
+
+            int trackIndex = 0;
+            foreach (var output in timeline.outputs)
+            {
+                if (output.sourceObject == track)
+                {
+                    // 找到对应 root 的输入
+                    if (trackIndex < root.GetInputCount())
+                    {
+                        var input = root.GetInput(trackIndex);
+
+                        root.DisconnectInput(trackIndex);
+                    }
+                    break;
+                }
+                trackIndex++;
+            }
+        }
+
 
         public void RegisterTrack(string trackId,string clipId,string name,int index,TrackAsset trackAsset)
         {

@@ -9,7 +9,6 @@ namespace tjtFramework.TimeLine
 {
     [TrackColor(0.2f, 0.7f, 1f)]
     [TrackClipType(typeof(EventTimeLineClip))]
-    [TrackBindingType(typeof(GameObject))]
     public class EventTimeLineTrack : TrackAsset
     {
         [Header("轨道id")]
@@ -21,8 +20,7 @@ namespace tjtFramework.TimeLine
             var mixerBehaviour = mixer.GetBehaviour();
 
             var director = go.GetComponent<PlayableDirector>();
-            var boundObj = director.GetGenericBinding(this) as GameObject;
-            var handler = boundObj?.GetComponent<IEventTimeLineHandler>();
+            var handler = go.GetComponent<IEventTimeLineHandler>();
 
             mixerBehaviour.handler = handler;
             mixerBehaviour.trackId = trackId;

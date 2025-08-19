@@ -240,6 +240,7 @@ GameObject:
   - component: {fileID: 695041436}
   - component: {fileID: 695041437}
   - component: {fileID: 695041438}
+  - component: {fileID: 695041439}
   m_Layer: 0
   m_Name: timeline
   m_TagString: Untagged
@@ -277,16 +278,10 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -7095206362883805942, guid: 4f65b3f00dd8a434d843f6718e6ef0ab, type: 2}
-    value: {fileID: 695041434}
-  - key: {fileID: 6823470175466515970, guid: 4f65b3f00dd8a434d843f6718e6ef0ab, type: 2}
-    value: {fileID: 695041434}
   - key: {fileID: 8085533193414090352, guid: 4f65b3f00dd8a434d843f6718e6ef0ab, type: 2}
     value: {fileID: 1772241230}
   - key: {fileID: -6040372523068819440, guid: 4f65b3f00dd8a434d843f6718e6ef0ab, type: 2}
     value: {fileID: 559963849}
-  - key: {fileID: -1164606207947770419, guid: 4f65b3f00dd8a434d843f6718e6ef0ab, type: 2}
-    value: {fileID: 695041434}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &695041437
@@ -320,6 +315,18 @@ MonoBehaviour:
   trackId_1: track1
   clipId_1: clip1
   isCube: 1
+--- !u!114 &695041439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695041434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83781f13d3b032241bfcc4831ff0d7cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703579698
 GameObject:
   m_ObjectHideFlags: 0

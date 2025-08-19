@@ -4,7 +4,7 @@ namespace tjtFramework.TimeLine
 {
     public interface ISkipTimeLineHandler
     {
-        public void OnSkipTimeline(string trackId, string clipId);
+        public bool ShouldSkip(string trackId, string clipId);
     }
 }
 

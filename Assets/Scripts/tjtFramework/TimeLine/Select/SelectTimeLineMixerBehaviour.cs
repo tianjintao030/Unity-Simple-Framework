@@ -17,12 +17,15 @@ namespace tjtFramework.TimeLine
 
         public override void OnBehaviourPlay(Playable playable, FrameData info)
         {
-            base.OnBehaviourPlay(playable, info);
+            if(!Application.isPlaying) 
+                return;
 
             int inputCount = playable.GetInputCount();
-            if (inputCount == 0) return;
+            if (inputCount == 0) 
+                return;
 
             SelectTimeLineSystem.Instance.handler = handler;
+            SelectTimeLineSystem.Instance.director = playableDirector;
 
             for (int i = 0; i < inputCount; i++)
             {
@@ -49,12 +52,6 @@ namespace tjtFramework.TimeLine
                     }
                 }
             }
-        }
-
-        public override void OnBehaviourPause(Playable playable, FrameData info)
-        {
-            base.OnBehaviourPause(playable, info);
-            SelectTimeLineSystem.Instance?.Release();
         }
     }
 }

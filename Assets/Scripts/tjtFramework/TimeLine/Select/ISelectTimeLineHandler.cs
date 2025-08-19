@@ -13,7 +13,6 @@ namespace tjtFramework.TimeLine
         /// </summary>
         /// <param name="trackId">所在轨道ID</param>
         /// <param name="clipId">clip ID</param>
-        /// <param name="candidates">候选轨道列表</param>
         /// <returns>要选择的轨道名字，默认返回""</returns>
         public string OnSelectTimeline(string trackId, string clipId);
     }

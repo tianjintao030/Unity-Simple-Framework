@@ -15,21 +15,21 @@ namespace tjtFramework.TimeLine
 
         public override void ProcessFrame(Playable playable, FrameData info, object playerData)
         {
+            if(!Application.isPlaying)
+            {
+                return;
+            }
+
             if(string.IsNullOrEmpty(trackId) || string.IsNullOrEmpty(clipId))
             {
                 return;
             }
 
-            if(!hasCalled && SelectTimeLineSystem.Instance != null)
+            if(!hasCalled)
             {
                 hasCalled = true;
                 SelectTimeLineSystem.Instance?.OnClipEnter(trackId, clipId);
             }
-        }
-
-        public override void OnBehaviourPause(Playable playable, FrameData info)
-        {
-            hasCalled = false;
         }
     }
 }

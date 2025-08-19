@@ -9,7 +9,6 @@ namespace tjtFramework.TimeLine
 {
     [TrackColor(0.1f, 0.3f, 0.3f)]
     [TrackClipType(typeof(SelectTimeLineClip))]
-    [TrackBindingType(typeof(GameObject))]
     public class SelectTimeLineTrack : TrackAsset
     {
         public string trackId;
@@ -20,8 +19,7 @@ namespace tjtFramework.TimeLine
             var mixerBehaviour = mixer.GetBehaviour();
 
             var director = go.GetComponent<PlayableDirector>();
-            var boundObj = director.GetGenericBinding(this) as GameObject;
-            var handler = boundObj?.GetComponent<ISelectTimeLineHandler>();
+            var handler = go.GetComponent<ISelectTimeLineHandler>();
 
             mixerBehaviour.selectTrack = this;
             mixerBehaviour.trackId = trackId;

@@ -20,7 +20,7 @@ namespace tjtFramework.TimeLine
 
         public List<TrackSelecterItem> trackList = new();
 
-        public ClipCaps clipCaps => ClipCaps.Blending;
+        public ClipCaps clipCaps => ClipCaps.None;
 
         public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
         {
