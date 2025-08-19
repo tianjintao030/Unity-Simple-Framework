@@ -58,13 +58,8 @@ namespace tjtFramework.TimeLine
             var controlItem = GetControlItemInList(trackId, clipId);
             foreach(var dataItem in controlItem.controlTracklist)
             {
-                if(dataItem.name == chosen)
+                if(dataItem.name != chosen)
                 {
-                    //dataItem.trackAsset.muted = false;
-                }
-                else
-                {
-                    //dataItem.trackAsset.muted = true;
                     SetTrackMute(dataItem.trackAsset);
                 }
             }
