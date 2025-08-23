@@ -1,0 +1,65 @@
+.node-root {
+    width: 200px;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: #555;
+    background-color: #2d2d2d;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* ====== 不同节点类型的颜色 ====== */
+.node-root.root {
+    border-color: #ff5555;
+    background-color: #662222;
+}
+
+.node-root.composite {
+    border-color: #55ff55;
+    background-color: #224422;
+}
+
+.node-root.action {
+    border-color: #5599ff;
+    background-color: #223366;
+}
+
+.node-root.decorator {
+    border-color: #ffaa55;
+    background-color: #664422;
+}
+
+/* ====== 端口位置 ====== */
+.node-port-top {
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.node-port-bottom {
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====== 内容区 ====== */
+.node-body {
+    flex-grow: 1;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.node-title {
+    color: white;
+    unity-font-style-and-weight: bold;
+    font-size: 14px;
+    unity-text-align: middle-center;
+}
+
+.node-desc {
+    color: #ddd;
+    font-size: 12px;
+    margin-top: 4px;
+    unity-text-align: middle-center;
+}

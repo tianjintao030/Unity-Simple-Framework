@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using tjtFramework.Utiliy;
 using UnityEngine;
 using static PlasticGui.LaunchDiffParameters;
 
@@ -20,6 +21,14 @@ namespace tjtFramework.GameAI.BehaviourTree
             BehaviourTreeCompositeNode node = Instantiate(this) as BehaviourTreeCompositeNode;
             node.children = children.ConvertAll(c => c.Clone());
             return node;
+        }
+
+        public virtual void ResetChildren()
+        {
+            if(!children.IsNullOrEmpty())
+            {
+                children.ForEach((c) => c.Reset());
+            }
         }
     }
 }

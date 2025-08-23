@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="node-root">
+
+        <!-- 输入端口占位 -->
+        <ui:VisualElement name="custom-input" class="node-port-top"/>
+
+        <!-- 内容区 -->
+        <ui:VisualElement class="node-body">
+            <ui:Label name="title-label" class="node-title" text="Node Title"/>
+            <ui:Label name="desc-label" class="node-desc" text="Description"/>
+        </ui:VisualElement>
+
+        <!-- 输出端口占位 -->
+        <ui:VisualElement name="custom-output" class="node-port-bottom"/>
+
+    </ui:VisualElement>
+</ui:UXML>

@@ -10,9 +10,21 @@ namespace tjtFramework.GameAI.BehaviourTree
     {
         public enum State
         {
+            /// <summary>
+            /// 节点未运行/初始状态
+            /// </summary>
             Invalid,
+            /// <summary>
+            /// 正在运行
+            /// </summary>
             Running,
+            /// <summary>
+            /// 失败
+            /// </summary>
             Failure,
+            /// <summary>
+            /// 成功
+            /// </summary>
             Success
         }
 
@@ -31,6 +43,8 @@ namespace tjtFramework.GameAI.BehaviourTree
         public bool IsTerminated => IsFailure || IsSuccess;
         [ReadOnlyInInspector]
         public bool hasStarted = false;
+
+        public string description;
 
         public State Update()
         {
