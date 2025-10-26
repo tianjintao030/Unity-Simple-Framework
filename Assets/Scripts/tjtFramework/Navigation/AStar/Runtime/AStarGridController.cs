@@ -31,7 +31,6 @@ namespace tjtFramework.Navigation
         /// <summary>
         /// 寻路路径
         /// </summary>
-        [ReadOnlyInInspector]
         public List<AStarNode> path;
 
         public void ReSetGrid()

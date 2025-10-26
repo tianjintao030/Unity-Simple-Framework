@@ -28,9 +28,7 @@ namespace tjtFramework.GameAI.BehaviourTree
             Success
         }
 
-        [ReadOnlyInInspector]
         public string guid;
-        [ReadOnlyInInspector]
         public Vector2 position;
 
         protected State state = State.Invalid;
@@ -41,7 +39,7 @@ namespace tjtFramework.GameAI.BehaviourTree
         /// 是否运行结束
         /// </summary>
         public bool IsTerminated => IsFailure || IsSuccess;
-        [ReadOnlyInInspector]
+
         public bool hasStarted = false;
 
         public string description;

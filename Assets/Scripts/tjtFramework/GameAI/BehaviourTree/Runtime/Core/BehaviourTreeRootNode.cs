@@ -6,7 +6,6 @@ namespace tjtFramework.GameAI.BehaviourTree
 {
     public class BehaviourTreeRootNode : BehaviourTreeNode
     {
-        [ReadOnlyInInspector]
         public BehaviourTreeNode child;
 
         protected override void OnStart()

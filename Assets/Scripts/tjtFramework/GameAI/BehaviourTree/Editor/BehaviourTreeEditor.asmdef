@@ -1,0 +1,16 @@
+{
+    "name": "BehaviourTreeEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:efd24a114057cbf4ab8117a9f5bb0ab3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

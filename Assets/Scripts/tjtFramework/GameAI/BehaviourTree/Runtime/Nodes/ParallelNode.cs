@@ -11,7 +11,7 @@ namespace tjtFramework.GameAI.BehaviourTree
     /// </summary>
     public class ParallelNode : BehaviourTreeCompositeNode
     {
-        [SerializeField, ReadOnlyInInspector]
+        [SerializeField]
         private List<State> childStates = new();
 
         public ParallelPolicy policy;

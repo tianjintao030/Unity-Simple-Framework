@@ -10,7 +10,6 @@ namespace tjtFramework.GameAI.BehaviourTree
     public abstract class BehaviourTreeDecoratorNode : BehaviourTreeNode
     {
         //只有一个子节点
-        [ReadOnlyInInspector]
         public BehaviourTreeNode child;
 
         public override BehaviourTreeNode Clone()

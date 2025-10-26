@@ -14,7 +14,6 @@ namespace tjtFramework.GameAI.BehaviourTree
         /// <summary>
         /// 当前运行子节点的索引
         /// </summary>
-        [ReadOnlyInInspector]
         public int currentChildIndex;
 
         protected override void OnStart()

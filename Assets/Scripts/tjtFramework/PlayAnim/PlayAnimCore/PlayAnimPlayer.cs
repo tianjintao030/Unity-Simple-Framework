@@ -90,7 +90,7 @@ public class PlayAnimPlayer : MonoBehaviour
         var index = layers.Count;
         if(index >= layerCount)
         {
-            Debug.LogError($"{graph.GetEditorName()}最大层级数为{layerCount},现在要加的层级数{index}超限了");
+            Debug.LogError($"{graph}最大层级数为{layerCount},现在要加的层级数{index}超限了");
             return null;
         }
 
@@ -145,7 +145,7 @@ public class PlayAnimPlayer : MonoBehaviour
         }
         else
         {
-            Debug.LogError($"{graph.GetEditorName()}未找到层级{layerName}");
+            Debug.LogError($"{graph}未找到层级{layerName}");
             return null;
         }
     }

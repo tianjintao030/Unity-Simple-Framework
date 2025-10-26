@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using tjtFramework.Utiliy;
 using UnityEngine;
-using static PlasticGui.LaunchDiffParameters;
 
 namespace tjtFramework.GameAI.BehaviourTree
 {
@@ -13,7 +12,6 @@ namespace tjtFramework.GameAI.BehaviourTree
     {
         // 多个子节点
         // 用双向链表构建子节点列表
-        [ReadOnlyInInspector]
         public List<BehaviourTreeNode> children = new();
 
         public override BehaviourTreeNode Clone()

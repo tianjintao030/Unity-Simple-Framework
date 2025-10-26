@@ -397,6 +397,13 @@ public class AssetBundleEditor : MonoBehaviour
         {
             foreach (DirectoryInfo dir in dirs)
             {
+                //跳过名字为 "Editor" 的文件夹（不区分大小写）
+                if (string.Equals(dir.Name, "Editor", StringComparison.OrdinalIgnoreCase))
+                {
+                    Debug.Log($"跳过 Editor 文件夹: {dir.FullName}");
+                    continue;
+                }
+
                 ScanChildDireations(dir);
             }
         }
