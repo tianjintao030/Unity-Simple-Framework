@@ -1,0 +1,31 @@
+{
+  "gameVersion": "0.0.1",
+  "downLoadUrl": "http://192.168.0.201/HotAsset/StandaloneWindows64/0.0.1/1/module1/",
+  "patchList": [
+    {
+      "resourceVersion": "1",
+      "hotFileList": [
+        {
+          "abName": "module1bundleconfig.ab",
+          "md5": "E4219FCDDBEDD2916C1743B48EBBAD8C",
+          "size": 2.0
+        },
+        {
+          "abName": "module1cube.ab",
+          "md5": "6DAB2FC919169712F9BF5E212EEEBD5D",
+          "size": 47.0
+        },
+        {
+          "abName": "module1_animationclips.ab",
+          "md5": "288DBE9ACA91AC51857C985B4D0C1EB0",
+          "size": 2260.0
+        },
+        {
+          "abName": "module1_animationcontrollers.ab",
+          "md5": "C4EF4CDE534192E3C1063F78E1D0E653",
+          "size": 4.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "assetBundleInfoList": [
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/Paladin WProp J Nordstrom.fbx",
+      "crc": 3334125443,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "Paladin WProp J Nordstrom.fbx",
+      "dependencies": [
+        "module1_animationclips.ab"
+      ]
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sheath sword 1.fbx",
+      "crc": 1397497019,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sheath sword 1.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sheath sword 2.fbx",
+      "crc": 351037035,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sheath sword 2.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield 180 turn (2).fbx",
+      "crc": 3201972013,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield 180 turn (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield 180 turn.fbx",
+      "crc": 522810254,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield 180 turn.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield attack (2).fbx",
+      "crc": 4164555486,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield attack (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield attack (3).fbx",
+      "crc": 862372219,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield attack (3).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield attack (4).fbx",
+      "crc": 778301891,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield attack (4).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield attack.fbx",
+      "crc": 174293654,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield attack.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield block (2).fbx",
+      "crc": 1523044072,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield block (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield block idle.fbx",
+      "crc": 509048235,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield block idle.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield block.fbx",
+      "crc": 2847522172,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield block.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield casting (2).fbx",
+      "crc": 3533407680,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield casting (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield casting.fbx",
+      "crc": 347157643,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield casting.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouch block (2).fbx",
+      "crc": 1746352805,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouch block (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouch block idle.fbx",
+      "crc": 369662066,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouch block idle.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouch block.fbx",
+      "crc": 1705329592,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouch block.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouch idle.fbx",
+      "crc": 921473840,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouch idle.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouch.fbx",
+      "crc": 2288829521,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouch.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouching (2).fbx",
+      "crc": 3137046399,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouching (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouching (3).fbx",
+      "crc": 1906791642,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouching (3).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield crouching.fbx",
+      "crc": 2006709001,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield crouching.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield death (2).fbx",
+      "crc": 3372394230,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield death (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield death.fbx",
+      "crc": 3433098355,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield death.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield idle (2).fbx",
+      "crc": 372427631,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield idle (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield idle (3).fbx",
+      "crc": 3714980042,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield idle (3).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield idle (4).fbx",
+      "crc": 3228248178,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield idle (4).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield idle.fbx",
+      "crc": 644203140,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield idle.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield impact (2).fbx",
+      "crc": 2291013125,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield impact (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield impact (3).fbx",
+      "crc": 1137886624,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield impact (3).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield impact.fbx",
+      "crc": 2133670113,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield impact.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield jump (2).fbx",
+      "crc": 121728660,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield jump (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield jump.fbx",
+      "crc": 169843018,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield jump.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield kick.fbx",
+      "crc": 1274128525,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield kick.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield power up.fbx",
+      "crc": 2019478763,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield power up.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield run (2).fbx",
+      "crc": 2812020321,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield run (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield run.fbx",
+      "crc": 3482922302,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield run.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield slash (2).fbx",
+      "crc": 2130913180,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield slash (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield slash (3).fbx",
+      "crc": 3026187321,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield slash (3).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield slash (4).fbx",
+      "crc": 2841298049,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield slash (4).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield slash (5).fbx",
+      "crc": 1644566308,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield slash (5).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield slash.fbx",
+      "crc": 105637976,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield slash.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield strafe (2).fbx",
+      "crc": 3190841129,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield strafe (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield strafe (3).fbx",
+      "crc": 1970048140,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield strafe (3).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield strafe (4).fbx",
+      "crc": 1751759924,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield strafe (4).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield strafe.fbx",
+      "crc": 11203862,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield strafe.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield turn (2).fbx",
+      "crc": 1355748336,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield turn (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield turn.fbx",
+      "crc": 1316889598,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield turn.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield walk (2).fbx",
+      "crc": 1250853469,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield walk (2).fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationClips/Sword and Shield Pack/sword and shield walk.fbx",
+      "crc": 2723967067,
+      "AssetBundleName": "module1_animationclips.ab",
+      "AssetName": "sword and shield walk.fbx",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Animation/AnimationControllers/Combo.controller",
+      "crc": 3955815881,
+      "AssetBundleName": "module1_animationcontrollers.ab",
+      "AssetName": "Combo.controller",
+      "dependencies": []
+    },
+    {
+      "path": "Assets/Game/Prefabs/Cube.prefab",
+      "crc": 283505855,
+      "AssetBundleName": "module1cube.ab",
+      "AssetName": "Cube.prefab",
+      "dependencies": [
+        "module1cube.ab"
+      ]
+    }
+  ]
+}
